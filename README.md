@@ -21,7 +21,7 @@ npm init -y
 
 Use el indicador -y para omitir las solicitudes habituales de personalización de su package.json. Si este fuera un módulo que desea publicar en npm, respondería a todas estas preguntas con datos pertinentes
 
-~~~
+~~~json
 Output
 {
   "name": "colors",
@@ -43,7 +43,7 @@ Ahora, abra un editor de texto de línea de comandos vim y cree un nuevo archivo
 
 Su módulo hará algunas acciones. Primero, definirá una clase Color. Su clase Color se instalará con su nombre y código HTML. Añada las líneas siguientes para crear la clase:
 
-~~~
+~~~javascript
 class Color {
   constructor(name, code) {
     this.name = name;
