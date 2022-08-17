@@ -199,7 +199,7 @@ Introduzca el siguiente código en index.js:
 
 const colors = require('colors');
 
-~~~
+~~~javascript
 const chosenColor = colors.getRandomColor();
 console.log(`You should use ${chosenColor.name} on your website. It's HTML code is ${chosenColor.code}`);
 ~~~
