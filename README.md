@@ -84,7 +84,7 @@ Cuando se inicie el REPL, verá el símbolo >. Esto significa que podrá ingresa
 
 En este comando, require() carga el módulo colors en su punto de entrada. Cuando presione INTRO, obtendrá el siguiente resultado:
 
-~~~
+~~~json
 Output
 {
   getRandomColor: [Function],
@@ -139,7 +139,7 @@ Como en el caso del módulo colors, inicie su carpeta con npm:
 
 Se generará el siguiente package.json:
 
-~~~
+~~~json
 Output
 {
   "name": "really-large-application",
@@ -165,7 +165,7 @@ Acaba de instalar su módulo colors en el nuevo proyecto. Abra el archivo packag
 
 Verá que se agregaron las siguientes:
 
-~~~
+~~~json
 {
   "name": "really-large-application",
   "version": "1.0.0",
