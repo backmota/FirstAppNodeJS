@@ -1,0 +1,16 @@
+{
+  "name": "really-large-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "backmota <jj.mota.t@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "file:../colors"
+  }
+
+}
